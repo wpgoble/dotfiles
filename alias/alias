@@ -1,0 +1,13 @@
+alias -g home="cd "
+alias -g pip="pip3"
+alias -g python="python3"
+alias -g school="cd ~/Documents/school/"
+alias -g work="cd ~/Documents/ardupilot/"
+alias -g udemy="cd ~/Desktop/Udemy/"
+export LESS="-R"
+alias -g hammer="vim ~/.hammerspoon/init.lua"
+alias -g zshrc="vim ~/.zshrc"
+alias -g vimrc="vim ~/.vimrc"
+alias -g netflix='open https://netflix.com'
+alias -g hbo="open https://play.hbonow.com/page/urn:hbo:page:home"
+alias -g hulu="open https://hulu.com"

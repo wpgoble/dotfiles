@@ -1,0 +1,1 @@
+Hammerspoon is an application that helps with automating tasks on Mac OS. Here are is my current setup.

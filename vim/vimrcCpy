@@ -1,0 +1,16 @@
+call pathogen#infect()
+syntax on
+filetype plugin indent on
+
+set number
+
+set expandtab
+set tabstop=4
+set softtabstop=4
+set shiftwidth=0
+
+call plug#begin()
+Plug 'lervag/vimtex'
+call plug#end()
+
+let g:vimtex_view_method = 'skim'
