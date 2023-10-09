@@ -1,0 +1,24 @@
+This file contains information about how to format date/time in lua
+
+using os.date(<format>)
+
+Possible formats:
+%a      abbreviated weekday name (e.g. Tues)
+%A      full weekday name (e.g. Tuessday)
+%b      abbreviated month name (e.g. Mar)
+%B      full month name (e.g. March)
+%c      date and time 
+            (03/28/23 16:44:10)
+%d      day of month (28)                   [01-31]
+%H      hour (16)                           [00-23]
+%I      hour (4)                            [01-12]
+%M      minute (42)                         [00-59]
+%m      month (03)                          [01-12]
+%p      either "am" or "pm"
+%S      second (10)                         [00-61]
+%w      weekday (2 == Tuessday)             [0-6; Sunday-Saturday]
+%x      date (03/38/23)
+%X      time (23:48:10)
+%Y      full year (2023)
+%y      two-digit year (23)                 [00-99]
+%%      the character '%'
